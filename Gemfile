@@ -34,7 +34,7 @@ gem 'foundation-rails'
 
 #gem 'google-instant-hangouts','0.0.2',path: 'vendor/gems/google-instant-hangouts'
 
-gem 'google-instant-hangouts',github: 'ankit8898/google-instant-hangouts'
+gem 'google-instant-hangouts'#,github: 'ankit8898/google-instant-hangouts'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
