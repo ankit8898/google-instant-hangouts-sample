@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Instant Hangouts Demo.</title>
-</head>
-<body>
-  <h1>Instant Hangouts Demo</h1>
-  <%= instant_hangout %>
 
+<h1>Google Instant Hangouts Demo</h1>
+<div class='panel'> 
+	<p>Hangout Air </p>
+	<%= instant_hangout hangout_type: :onair %>
+</div>
 
-</body>
-</html>
+<div class='panel'>  <p>General Hangout </p>
+	<%= instant_hangout widget_size: 175  %>
+</div>
+

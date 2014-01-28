@@ -30,7 +30,11 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-gem 'google-instant-hangouts'#,'0.0.1',path: 'vendor/gems/google-instant-hangouts'
+gem 'foundation-rails'
+
+#gem 'google-instant-hangouts','0.0.2',path: 'vendor/gems/google-instant-hangouts'
+
+gem 'google-instant-hangouts',github: 'ankit8898/google-instant-hangouts'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
